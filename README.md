@@ -13,12 +13,12 @@ The project involved the creation and management of a relational database for a 
 -	Database and Table Creation: The project began with the creation of the HospitalityHotelDb database, followed by the establishment of essential tables: StateMaster, Room, and Booking. The StateMaster table was designed to hold state information, while the Room and Booking tables managed room details and booking records, respectively.
 -	Data Insertion: Initial data was inserted into the StateMaster, Room, and Booking tables. This data represented various states, room types, and booking records, allowing for testing and further development of the database.
 -	Advanced SQL Queries: Several complex SQL queries were developed to retrieve specific data insights. These included:
--	Identifying guests with matching check-in and check-out dates.
--	Finding the second-highest booking total amount.
--	Determining the maximum room price per room type and associated guest names.
--	Counting guests per room type.
--	Calculating the total amount spent by guests, grouped by their first names.
--	Retrieving bookings with odd total amounts.
+--	Identifying guests with matching check-in and check-out dates.
+--	Finding the second-highest booking total amount.
+--	Determining the maximum room price per room type and associated guest names.
+--	Counting guests per room type.
+--	Calculating the total amount spent by guests, grouped by their first names.
+--	Retrieving bookings with odd total amounts.
 -	Views and Stored Procedures: The project included the creation of a SQL view named ExpensiveBookings to filter bookings with amounts greater than $1000. Additionally, stored procedures were developed:
 -	UpdateRoomPrices: Adjusted room prices by 10% for all suite rooms, except those in Lagos.
 -	FetchBookingDetails: A stored procedure to fetch and display comprehensive booking details, including error handling mechanisms.
